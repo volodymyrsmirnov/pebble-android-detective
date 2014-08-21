@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 16
+    buildToolsVersion '19.1.0'
+    defaultConfig {
+        applicationId 'com.mindcollapse.wifipebbledetective'
+        minSdkVersion 15
+        targetSdkVersion 16
+        versionCode 1
+        versionName '1.0'
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':libraries:PebbleKit')
+}

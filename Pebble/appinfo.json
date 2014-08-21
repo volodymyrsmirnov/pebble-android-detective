@@ -1,0 +1,41 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Vladimir Smirnov",
+    "longName": "WiFi Detective",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/signal_3.png",
+                "menuIcon": true,
+                "name": "SIGNAL_3",
+                "type": "png-trans"
+            },
+            {
+                "file": "images/signal_2.png",
+                "name": "SIGNAL_2",
+                "type": "png-trans"
+            },
+            {
+                "file": "images/signal_1.png",
+                "name": "SIGNAL_1",
+                "type": "png-trans"
+            },
+            {
+                "file": "images/signal_0.png",
+                "name": "SIGNAL_0",
+                "type": "png-trans"
+            }
+        ]
+    },
+    "shortName": "WiFi Detective",
+    "uuid": "2db008d5-535c-4daf-a92a-0a30b32080cd",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
