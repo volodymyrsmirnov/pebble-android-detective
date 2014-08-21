@@ -138,7 +138,7 @@ static void menu_draw_header_callback(GContext* ctx, const Layer *cell_layer, ui
 
 // Event on row display
 static void menu_draw_row_callback(GContext* ctx, const Layer *cell_layer, MenuIndex *cell_index, void *data) {
-  char draw_empty = 0;
+  uint8_t draw_empty = 0;
   network current;
   
   // Get the section and detect if it has items
